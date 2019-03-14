@@ -30,7 +30,7 @@ class Item extends Component {
                 className="dump"
                 onClick={this.onDelete.bind(this, this.props.data, dispatch)}
               >
-                X
+                <i class="far fa-trash-alt" />
               </p>
               <li
                 onClick={this.tick.bind(this, this.props)}

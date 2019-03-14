@@ -5,6 +5,12 @@
   background: #f7f7f7;
   margin-top: 50px;
 }
+.far {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
 .bc {
   background: #2980b9 !important;
   color: #f7f7f7;
