@@ -1,0 +1,110 @@
+.hold {
+  box-shadow: 0 0 60px rgba(15, 6, 102, 0.37);
+  margin: 300px auto;
+  width: 460px;
+  background: #f7f7f7;
+  margin-top: 50px;
+}
+.bc {
+  background: #2980b9 !important;
+  color: #f7f7f7;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.lt {
+  text-decoration: line-through;
+  color: darkgrey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.6em;
+}
+li {
+  list-style: none;
+}
+.list {
+  margin-bottom: 100px;
+}
+.nn {
+  color: #063858;
+}
+.cd {
+  font-size: 1.4em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.hc {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.bt {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.pup {
+  background-color: blueviolet !important;
+  font-weight: 400;
+}
+li {
+  padding-left: 40px;
+  background: rgb(195, 218, 245);
+  height: 80px;
+  line-height: 30px;
+  color: #666;
+}
+input {
+  font-size: 25px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  text-align: center !important;
+  background: #f7f7f7;
+  padding: 13px 13px 13px 20px !important;
+  color: #2980b9 !important;
+  height: 35px !important;
+}
+
+input:focus {
+  height: 55px !important;
+  outline: none !important;
+  border: 4px solid #2980b9 !important;
+  background: rgb(233, 222, 222) !important;
+}
+.dump {
+  background: #e74c3c;
+  width: 0px !important;
+  height: 0px !important;
+  text-align: center;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+.dump:hover {
+  height: 40px !important;
+  width: 40px !important;
+  background: #e74c3c;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 0 60px rgba(15, 6, 102, 0.37);
+  opacity: 1;
+}
+li:hover .dump {
+  height: 40px !important;
+  width: 40px !important;
+  background: #e74c3c;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 0 60px rgba(15, 6, 102, 0.37);
+  opacity: 1;
+}
+.name {
+  color: rgb(192, 235, 93);
+}
+body {
+  background: #fff;
+}
+
+/* 
+li:nth-child(2n) {
+  background: rgb(250, 191, 191);
+} */
