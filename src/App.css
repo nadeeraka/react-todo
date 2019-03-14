@@ -51,18 +51,16 @@ li {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .pup {
-  background: #feac5e; /* fallback for old browsers */
+  background: #00c6ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #4bc0c8,
-    #c779d0,
-    #feac5e
+    to top,
+    #0072ff,
+    #00c6ff
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #4bc0c8,
-    #c779d0,
-    #feac5e
+    to top,
+    #0072ff,
+    #00c6ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   font-weight: 400;
@@ -145,17 +143,15 @@ body {
  */
 
 body {
-  background: #833ab4; /* fallback for old browsers */
+  background: #43cea2; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
+    to top,
+    #185a9d,
+    #43cea2
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
+    to top,
+    #185a9d,
+    #43cea2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
